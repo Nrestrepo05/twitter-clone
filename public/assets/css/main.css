@@ -1,0 +1,39 @@
+:root {
+  --blue: #1da1f2;
+  --blue-20: #e8f6fd;
+  --blue-30: #93d0f9;
+  --white: #ffffff;
+  --gray-10: #f7f9f9;
+  --gray-20: #eff3f4;
+  --gray-70: #cfd9de;
+  --gray-80: #999;
+  --gray-90: #536471;
+  --black: #000;
+  --red-90: #e0245e;
+
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--secondary);
+}
+
+.light-pallete {
+  --primary: var(--blue);
+  --primary-disabled: var(--blue-30);
+  --primary-light: var(--blue-20);
+  --secondary: var(--white);
+  --secondary-accent: var(--gray-20);
+  --accent-two: var(--gray-10);
+  --text-primary: var(--black);
+  --text-secondary: var(--gray-90);
+  --primary-error: var(--red-90);
+  --accent-three: var(--gray-70);
+  --accent-four: var(--gray-80);
+}

@@ -1,0 +1,66 @@
+Arguments: 
+  /Users/nicolas.restrepo/.nvm/versions/node/v12.13.0/bin/node /Users/nicolas.restrepo/.nvm/versions/node/v12.13.0/bin/yarn add @fortawesome/fontawesome-svg-core
+
+PATH: 
+  /Users/nicolas.restrepo/.nvm/versions/node/v12.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/nicolas.restrepo/.nvm/versions/node/v12.13.0/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: write EPIPE
+      at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:87:16)
+      at handleWriteReq (internal/stream_base_commons.js:53:21)
+      at writeGeneric (internal/stream_base_commons.js:139:15)
+      at TLSSocket.Socket._writeGeneric (net.js:770:11)
+      at TLSSocket.Socket._write (net.js:782:8)
+      at doWrite (_stream_writable.js:431:12)
+      at clearBuffer (_stream_writable.js:551:7)
+      at TLSSocket.Writable.uncork (_stream_writable.js:325:7)
+      at ClientRequest._flushOutput (_http_outgoing.js:808:10)
+      at ClientRequest._flush (_http_outgoing.js:784:16)
+
+npm manifest: 
+  {
+    "name": "twitter-clone",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "next start",
+      "dev": "next dev",
+      "build": "next build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "formik": "^2.2.9",
+      "next": "^11.0.1",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+      "eslint": "^7.29.0",
+      "eslint-config-airbnb": "^18.2.1",
+      "eslint-plugin-import": "^2.23.4",
+      "eslint-plugin-jsx-a11y": "^6.4.1",
+      "eslint-plugin-next": "^0.0.0",
+      "eslint-plugin-prettier": "^3.4.0",
+      "eslint-plugin-react": "^7.24.0",
+      "eslint-plugin-react-hooks": "^4.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

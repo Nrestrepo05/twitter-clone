@@ -15,7 +15,8 @@
         "sourceType": "module"
     },
     "plugins": [
-        "next"
+        "next",
+        "react"
     ],
     "rules": {
     }
